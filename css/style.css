@@ -1,0 +1,67 @@
+html{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+body{
+    margin: 0px;
+    background-color: rgb(255,240,229);
+}
+
+header{
+    background-color: rgb(255,240,229);
+    margin: 0px;
+}
+
+header img{
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+}
+
+header h1{
+    text-align: center;
+    color: rgb(16, 22, 47);
+    margin: 0 auto;
+}
+
+header ul{
+    text-align: center;
+    font-family: monospace;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+}
+
+header li{
+    display: inline;
+}
+
+header a{
+    color: white;
+    background-color: rgb(16, 22, 47);
+    border: 3px solid silver;
+    border-radius: 10px;
+    padding: 0.7rem;
+}
+
+header a:hover{
+    color:yellow;
+}
+
+header a:active{
+    color: white;
+}
+
+header a:visited{
+    color: white;
+}
+
+#intro{
+    width: 45%;
+    margin: 0 auto;
+}
