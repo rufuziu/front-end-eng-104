@@ -9,12 +9,17 @@ html{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+p{
+    line-height: 1.4rem;
+}
+
 a{
     cursor: pointer;
     text-decoration: none;
 }
 
 body{
+    min-width: 320px;
     margin: 0px;
     background-color: rgb(255,240,229);
 }
@@ -25,6 +30,7 @@ header{
 }
 
 header img{
+    min-width: 320px;
     display: block;
     width: 40%;
     margin: 0 auto;
@@ -68,11 +74,13 @@ header a:visited{
 }
 
 #intro{
+    min-width: 320px;
     width: 45%;
     margin: 0 auto;
 }
 
 #content{
+    min-width: 300px;
     width: 45%;
     margin: 0 auto;
 }
@@ -121,4 +129,22 @@ ul{
 
 code{
     background-color: white;
+}
+
+#box-model-example{
+    width: 100%;
+    margin: 0 auto;
+}
+
+table{
+    margin: 0 auto;
+}
+
+th{
+    border: 1px solid black;
+}
+
+td{
+    border: 1px solid black;
+    padding: 4px;
 }

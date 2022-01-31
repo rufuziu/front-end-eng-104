@@ -41,25 +41,70 @@
               <li>Red box: Content area.</li>
         </ul>
           </p>
-          <p>&emsp;All in a html document is showed thru a Box-Model, ur first task
-              has a Front-End Engineer is know to manipulate this box.
+          <p>&emsp;All in a html document is a element(<code>&lt;element-tag&gt;</h1></code>) and 
+            showed thru a Box-Model, ur first task as a Front-End Engineer is know to 
+            manipulate this box.
           </p>
-          <p>&emsp;A Box-Model have the property(CSS) <code>box-sizing</code>
+          <p>&emsp;A Box-Model have the property(CSS) <code>box-sizing:</code>
             , and are two values to choose:
             <ul>
-              <li><code>content-box</code>; (default value)</li>
-              <li><code>border-box</code>.</li>
+              <li><code>content-box;</code> (default value)</li>
+              <li><code>border-box;</code>.</li>
             </ul>
           </p>
           <p>&emsp;This property will set how Box-Model will displayed in screen.
-            <img src="../images/box-model-example.jpg" style="margin: 0 auto;">
+            <img id="box-model-example" src="../images/box-model-example.jpg" alt="box-model example with 100px wide">
           </p>
           <p>&emsp;On image above, we see a Box-Model with 100px wide, 
-             when property <code>box-sizing</code> are with value <code>content-box</code>, 
+             when property <code>box-sizing:</code> are <code>content-box;</code>, 
              width property will affect just the content size, remember that!.
           </p>
           <p>&emsp;Lets supose, content has 100px width, padding 10px, border 1px and 
               margin 10px, this Box-Model on image are 142px wide.
+          </p>
+          <h2>Display</h2>
+          <p>&emsp;Box-Model is the "shape" of a element, but element have a form to be
+            displayed.
+          </p>
+          <p>&emsp;HTML tags are dispose in block content:
+            <ul>
+              <li><code>&lt;ul&gt;</code></li>
+              <li><code>&lt;table&gt;</code></li>
+              <li><code>&lt;div&gt;</code></li>
+              <li><code>&lt;p&gt;</code></li>
+            </ul>
+          </p>
+          <p>&emsp;Or inline content:
+            <ul>
+              <li><code>&lt;img&gt;</code></li>
+              <li><code>&lt;h1...h6&gt;</code></li>
+              <li><code>&lt;span&gt;</code></li>
+              <li><code>&lt;a&gt;</code></li>
+            </ul>            
+          </p>
+          <table>
+            <tr>
+              <th colspan="2">Differences of elements</th>
+            </tr>
+            <tr>
+              <th>inline</th>
+              <th>block</th>
+            </tr>
+            <tr>
+              <td>no start on a new line</td>
+              <td>starts on a new line</td>
+            </tr>
+            <tr>
+              <td>width just enough to content</td>
+              <td>full width available</td>
+            </tr>
+            <tr>
+              <td>can be inside a block element</td>
+              <td>cannot be inside a inline element</td>
+            </tr>
+          </table>
+          <p>&emsp;With property <code>display:</code> we can change how a element will
+            be displayed, as <code>inline;</code> or <code>block;</code>.
           </p>
           <p>&emsp;As Front-End Engineers the most important is how and were distribuitate
               content.
